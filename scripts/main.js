@@ -4,15 +4,15 @@ var counter = 1;
 myImage.onclick = function(){
 switch(counter){
     case 1:
-        myImage.setAttribute("src","images/aaa.pn");
+        myImage.setAttribute("src","");
         myImage.setAttribute("alt","a banana taped onto the wall");
         break;
     case 2:
-        myImage.setAttribute("src","images/bbb.jp");
+        myImage.setAttribute("src","");
         myImage.setAttribute("alt", "Can't help myself - a robot art that conveys emotion");
         break;
     case 3:
-        myImage.setAttribute("src","images/ccc.jpe");
+        myImage.setAttribute("src","");
         myImage.setAttribute("alt","Van Gogh's painting - Wheat Field with Cypresses");
         break;
 }
